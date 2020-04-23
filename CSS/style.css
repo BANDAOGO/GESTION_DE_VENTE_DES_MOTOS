@@ -1,0 +1,125 @@
+/* body {
+    background-color: rgb(90, 68, 131);
+} */
+ 
+.div-general-foo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5PX;
+    justify-content: space-around;
+    
+}
+.div-footer{
+    background-color: rgb(90, 68, 131);
+    height: 60px;
+    width: 1495px;
+    flex-wrap: wrap;
+    padding-left: 500px;
+    padding-top: 10px;
+}
+.text1{
+    text-align: center;;
+}
+.labelcommun{
+    font-size: 30px;
+}
+.inputcommun{
+    width: 450px;
+    height: 60px;
+    border-radius: 8px;
+}
+.prixlabel{
+    padding-left: 400px;
+}
+.buttuon_dossier{
+    background-color: rgb(94, 131, 20);
+}
+
+#div_Formulairepatient{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+
+.le-div-general-du-formulaire {
+border: 2px solid #effef2;
+border-radius: 10px;
+background-color: rgb(90, 68, 131);
+
+}
+
+
+.les-tirest {
+    color: white;
+    border: 1px solid;
+}
+
+
+.Enregistrer { background-color: #5e17eb;
+    color: white;
+    font-weight: bolder;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 150px;
+   
+}
+
+.Annuler  { 
+    background-color: #5e17eb;
+    color: white;
+    font-weight: bolder;
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-top: 15px;
+   
+}
+
+
+couleur :after{
+    background-color: white;
+}
+
+ .la-classe-de-enregistrer-et-de-annuler{
+     margin-top: 15px;
+     margin-bottom: 20px;
+ }
+
+
+ .la-ligne-blanche {
+     margin-left: 0px;
+     margin-right: 0px;
+     flex-wrap: wrap;
+ }
+
+
+.les-liens {
+    text-transform: uppercase;
+    font-size: 11.5px;
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

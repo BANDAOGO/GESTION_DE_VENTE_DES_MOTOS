@@ -1,0 +1,40 @@
+#div-general-admin{
+    background-color: red;
+    display: block;
+    flex-wrap: wrap;
+    margin: 150px;
+    background-color: rgb(90, 68, 131);
+}
+.inputadmin{
+    width:500px;
+    height: 50px;
+    border-radius: 8px;
+}
+.label-input-admin{
+    height:100px ;
+    margin-left: 150px;
+}
+.labeladmin{
+    font-size: 30px;
+    color:white;
+}
+.clas{
+    margin-right: -150px;
+}
+.icons8_admin{
+    height: 50px;
+    background-color: white;
+}
+.alien{
+    color:white;
+}
+.admine{
+    color:white;
+}
+.labelsubmitadmin{
+    color:black;
+    border-radius: 8px;
+}
+/* .label-input-admin1{
+    margin-top: 2500px;
+} */
