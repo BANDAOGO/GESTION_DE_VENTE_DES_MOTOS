@@ -12,11 +12,11 @@
         $connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     
-        if (isset($_POST['nomAdmin']) AND $_POST['password'] == "admin") //
+        if (isset($_POST['nomAdmin']) AND $_POST['password'] =="admin") //
            //Si le mot de passe est bon
         {
         // On affiche les codes
-        header("Location:index.php");;
+        header("Location:../controleurs/index.php");
     
         }
        

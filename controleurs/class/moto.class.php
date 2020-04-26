@@ -1,8 +1,9 @@
+
 <?php
 
 class Moto
 {
-  private $id;
+  private $idmoto;
   private $marque;
   private $modele;
   private $cylindre;
@@ -13,9 +14,9 @@ class Moto
 
   // les getters
 
-    public function getId()
+    public function getIdmoto()
     {
-        return $this->id;
+        return $this->idmoto;
     }
 
     public function getMarque()
@@ -55,9 +56,9 @@ class Moto
 
     // les setters
 
-    public function setId($id)
+    public function setIdmoto($idmoto)
     {
-        $this->id = $id;
+        $this->idmoto = $idmoto;
     }
 
     public function setMarque($marque)
@@ -90,7 +91,7 @@ class Moto
         $this->numeroDeSerie = $numeroDeSerie;
     }
 
-    public function setCouleur($ouleur)
+    public function setCouleur($couleur)
     {
         $this->couleur = $couleur;
     }

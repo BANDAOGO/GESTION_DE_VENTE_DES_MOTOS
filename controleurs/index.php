@@ -1,9 +1,9 @@
 
 
-    <?php include("incluse/entete.php"); ?> 
+    <?php include("../incluse/entete.php"); ?> 
 
 <div class="le-div-general-du-formulaire">   
- <form action="traitement.php" method="POST" class="formulaire" enctype="multipart/form-data">
+ <form action="../models/traitement.php" method="POST" class="formulaire" enctype="multipart/form-data">
     <fieldset>
         <legend> <button class="btn buttuon_dossier"> NOUVELLE MOTO</button></legend>
     <div class="div-du-sous-titre-parent-et-des-tirest">
@@ -49,4 +49,4 @@
 
 </div>
 
-<?php include("incluse/footer.php"); ?>
+<?php include("../incluse/footer.php"); ?>

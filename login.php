@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" media="screen" href="CSS/login.css" />
     <title>LOGIN</title>
-    <?php include("incluse/entete.php"); ?>
 </head>
+
+
 <body>
-    <form action="traitement_admin.php" method="POST">
+    <form action="models/traitement_admin.php" method="POST">
         <div id="div-general-admin"><br>
         <div class="label-input-admin clas"> <img class="icons8_admin" src="images/icons8_Add_User_Male_50px.png" alt="logoAdmin"> <br>
         <span class="labeladmin admine"><b>Administrateur </b> </span>
@@ -22,5 +23,5 @@
         </div>
     </form>
 </body>
-<?php include("incluse/footer.php"); ?>
+
 </html>
